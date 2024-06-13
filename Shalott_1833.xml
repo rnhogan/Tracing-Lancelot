@@ -3,279 +3,214 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Sample Document Title</title>
+				<title>Lady of Shallot 1883</title>
 				<editor sameAs="www.cwrc.ca/person/someID">Editor name</editor>
 			</titleStmt>
 			<publicationStmt>
 				<p/>
 			</publicationStmt>
-			<sourceDesc sameAs="http://www.cwrc.ca">
-				<p>Created by members of CWRC/CSÉC unless otherwise noted.</p>
-			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "undefined?person_annotation_20190814134739476",
-	"type": "oa:Annotation",
-	"dcterms:created": "2019-08-14T20:47:39.476Z",
-	"dcterms:modified": "2019-08-14T20:47:39.476Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/ilovan",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Mihaela Ilovan",
-		"foaf:nick": "ilovan"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "undefined?person_annotation_20190814134739476#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "undefined?person_annotation_20190814134739476#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/docAuthor/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/78272387",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "undefined?date_annotation_20190814134739477",
-	"type": "oa:Annotation",
-	"dcterms:created": "2019-08-14T20:47:39.477Z",
-	"dcterms:modified": "2019-08-14T20:47:39.477Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/ilovan",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Mihaela Ilovan",
-		"foaf:nick": "ilovan"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "undefined?date_annotation_20190814134739477#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "undefined?date_annotation_20190814134739477#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/note/date"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "xsd:date",
-		"rdf:value": "1936"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	},
-	"cwrc:hasCertainty": "cwrc:definite"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "undefined?link_annotation_20190814134739479",
-	"type": "oa:Annotation",
-	"dcterms:created": "2019-08-14T20:47:39.479Z",
-	"dcterms:modified": "2019-08-14T20:47:39.479Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/ilovan",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Mihaela Ilovan",
-		"foaf:nick": "ilovan"
-	},
-	"oa:motivatedBy": "oa:linking",
-	"oa:hasTarget": {
-		"@id": "undefined?link_annotation_20190814134739479#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.5.0"
-		},
-		"oa:hasSelector": {
-			"@id": "undefined?link_annotation_20190814134739479#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div[2]/note[3]/ref"
-		}
-	},
-	"oa:hasBody": {
-		"@id": "http://cufts2.lib.sfu.ca/CRDB4/BVAS/resource/5724",
-		"@type": "cnt:ContentAsText"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.5.0"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="poem">
-				<head type="poem">
-					<title level="a">Sample Poem Title</title>
-					<title type="subtitle">Sample Subtitle</title>
-				</head>
-				<lg>
-					<l>Verse line</l><l>Verse line</l><l>Verse line</l>
+				<head type="title">The Lady of Shallot</head>
+				<byline/>
+				by <persName>Alfred, Lord Tennyson</persName>
+				<div type="part">
+					<head type="title">Part the First.</head>
+				<lg type="stanza">
+					<l>On either side the river lie</l>
+					<l>Long fields of barley and of rye,</l>
+					<l>That clothe the wold and meet the sky.</l>
+					<l>And thro' the field the road runs by</l>
+					<l>                To manytowered Camelot.</l>
+					<l>The yellowleavèd waterlily,</l>
+					<l>The greensheathèd daffodilly,</l>
+					<l>Tremble in the water chilly,</l>
+					<l>               Round about Shalott.</l>
+				</lg>
+				<lg type="stanza">
+					<l>Willows whiten, aspens shiver,</l>
+					<l>The sunbeam-showers break and quiver</l>
+					<l>In the stream that runneth ever</l>
+					<l>By the island in the river,</l>
+					<l>               Flowing down to Camelot.</l>
+					<l>Four gray walls and four gray towers</l>
+					<l>Overlook a space of flowers,</l>
+					<l>And the silent isle imbowers</l>
+					<l>               The Lady of Shalott.</l>
+				</lg>
+				<lg type="stanza">
+					<l>Underneath the bearded barley,</l>
+					<l>The reaper, reaping late and early,</l>
+					<l>Hears her ever chanting cheerly,</l>
+					<l>Like an angel, singing clearly,</l>
+					<l>               O'er the stream of Camelot.</l>
+					<l>Piling the sheaves in furrows airy,</l>
+					<l>Beneath the moon, the reaper weary</l>
+					<l>Listening whispers, "'tis the fairy</l>
+					<l>               Lady of Shalott."</l>
 				</lg>
 				<lg>
-					<l>Verse line</l><l>Verse line</l><l>Verse line</l>
+					<l>The little isle is all inrailed</l>
+					<l>With a rose-fence, and overtrailed</l>
+					<l>With roses: by the marge unhailed</l>
+					<l>The shallop flitteth silkensailed,</l>
+					<l>               Skimming down to Camelot.</l>
+					<l>A pearlgarland winds her head:</l>
+					<l>She leaneth on a velvet bed,</l>
+					<l>Full royally apparellèd</l>
+					<l>                The Lady of Shalott.</l>
 				</lg>
 			</div>
-			<div type="poem">
-				<head type="poem">Glimpse </head>
-				<byline/>
-				<docAuthor>by <persName cert="high" type="real" ref="http://viaf.org/viaf/78272387">Alfred, Lord Tennyson</persName></docAuthor><docAuthor>Part the First.</docAuthor>
-				<lg>
-					<l>On either side the river lie</l><l>Long fields of barley and of rye,</l><l>That clothe the wold and meet the sky.</l><l>And thro' the field the road runs by</l><l>                To manytowered Camelot.</l><l/><l/><l>The yellowleavèd waterlily,</l><l>The greensheathèd daffodilly,</l><l>Tremble in the water chilly,</l><l>               Round about Shalott.</l><l>Willows whiten, aspens shiver,</l><l>The sunbeam-showers break and quiver</l><l>In the stream that runneth ever</l><l>By the island in the river,</l><l>               Flowing down to Camelot.</l><l>Four gray walls and four gray towers</l><l>Overlook a space of flowers,</l><l>And the silent isle imbowers</l><l>               The Lady of Shalott.</l><l>Underneath the bearded barley,</l><l>The reaper, reaping late and early,</l><l>Hears her ever chanting cheerly,</l><l>Like an angel, singing clearly,</l><l>               O'er the stream of Camelot.</l><l>Piling the sheaves in furrows airy,</l><l>Beneath the moon, the reaper weary</l><l>Listening whispers, "'tis the fairy</l><l>               Lady of Shalott."</l><l>The little isle is all inrailed</l><l>With a rose-fence, and overtrailed</l><l>With roses: by the marge unhailed</l><l>The shallop flitteth silkensailed,</l><l>               Skimming down to Camelot.</l><l>A pearlgarland winds her head:</l><l>She leaneth on a velvet bed,</l><l>Full royally apparellèd</l><l>                The Lady of Shalott.</l><l>Part the Second.</l><l>No time hath she to sport and play:</l><l>A charmèd web she weaves alway.</l><l>A curse is on her, if she stay</l><l>Her weaving, either night or day,</l><l>              To look down to Camelot.</l><l>She knows not what the curse may be;</l><l>Therefore she weaveth steadily,</l><l>Therefore no other care hath she,</l><l>              The Lady of Shalott.</l><l>She lives with little joy or fear.Over the water, running near,The sheepbell tinkles in her ear.Before her hangs a mirror clear,              Reflecting towered Camelot.And, as the mazy web she whirls,She sees the surly village-churls,And the red cloaks of market-girls,              Pass onward from Shalott.Sometimes a troop of damsels glad,An abbot on an ambling pad,Sometimes a curly shepherd lad,Or longhaired page, in crimson clad,              Goes by to towered Camelot.And sometimes thro' the mirror blue,The knights come riding, two and two.She hath no loyal knight and true              The Lady of Shalott.But in her web she still delightsTo weave the mirror's magic sights:For often thro' the silent nightsA funeral, with plumes and lights              And music, came from Camelot.Or, when the moon was overhead,Came two young lovers, lately wed:"I am half-sick of shadows," said              The Lady of Shalott.Part the Third.A bowshot from her bower-eaves.He rode between the barleysheaves:The sun came dazzling thro' the leaves,And flamed upon the brazen greaves              Of bold Sir Launcelot.A redcross knight for ever kneeledTo a lady in his shield,That sparkled on the yellow field,              Beside remote Shalott.The gemmy bridle glittered free,Like to some branch of stars we seeHung in the golden galaxy.The bridle-bells rang merrily,              As he rode down from Camelot.And, from his blazoned baldric slung,A mighty silver bugle hung,And, as he rode, his armour rung,              Beside remote Shalott.All in the blue unclouded weather,Thickjewelled shone the saddle-leather.The helmet, and the helmet-featherBurned like one burning flame together,              As he rode down from Camelot.As often thro' the purple night,Below the starry clusters bright,Some bearded meteor, trailing light,              Moves over green Shalott.His broad clear brow in sunlight glowed.On burnished hooves his warhorse trode.From underneath his helmet flowedHis coalblack curls, as on he rode,              As he rode down from Camelot.From the bank, and from the river,He flashed into the crystal mirror,"Tirra lirra, tirra lirra,"              Sang Sir Launcelot.She left the web: she left the loom:She made three paces thro' the room:She saw the waterflower bloom:She saw the helmet and the plume:              She looked down to Camelot.Out flew the web, and floated wide,The mirror cracked from side to side,'The curse is come upon me," cried              The Lady of Shalott.Part the Fourth.In the stormy eastwind strainingThe pale-yellow woods were waning,The broad stream in his banks complaining,Heavily the low sky raining              Over towered Camelot:Outside the isle a shallow boatBeneath a willow lay afloat,Below the carven stern she wrote,              THE LADY OF SHALOTT.A cloudwhite crown of pearl she dight.All raimented in snowy whiteThat loosely flew, (her zone in sight,Clasped with one blinding diamond bright,)              Her wide eyes fixed on Camelot,Though the squally eastwind keenlyBlew, with folded arms serenelyBy the water stood the queenly               Lady of Shalott.With a steady, stony glance—Like some bold seer in a trance,Beholding all his own mischance,Mute, with a glassy countenance—              She looked down to Camelot.It was the closing of the day,She loosed the chain, and down she lay,The broad stream bore her far away,              The Lady of Shalott.As when to sailors while they roam,By creeks and outfalls far from home,Rising and dropping with the foam,From dying swans wild warblings come,              Blown shoreward; so to CamelotStill as the boathead wound alongThe willowy hills and fields among,They heard her chanting her deathsong,              The Lady of Shalott.A longdrawn carol, mournful, holy,She chanted loudly, chanted lowly,Till her eyes were darkened wholly,And her smooth face sharpened slowly              Turned to towered Camelot:For ere she reached upon the tideThe first house by the waterside,Singing in her song she died,              The Lady of Shalott.Under tower and balcony,By gardenwall and gallery,A pale, pale corpse she floated by,Deadcold, between the houses high,              Dead into towered Camelot.Knight and burgher, lord and dame,To the plankèd wharfage came:Below the stern they read her name,              "The Lady of Shalott."They crossed themselves, their stars they blest,Knight, minstrel, abbot, squire and guest.There lay a parchment on her breast,That puzzled more than all the rest,              The wellfed wits at Camelot."The web was woven curiously The charm is broken utterly, Draw near and fear not – this is I,              The Lady of Shalott.</l>
-				</lg>
-				<note>McLaren, Floris Clark. Glimpse. Canadian Poetry Magazine1.1(<date cert="high" when="1936">1936</date>):23</note>
-				<note type="researchNote">This poem has a suggestion of the magical imagery of Kenneth Leslie's By Stubborn Stars.</note>
-				<note type="link">Poem featured in <ref target="http://cufts2.lib.sfu.ca/CRDB4/BVAS/resource/5724">Canada's Early Women Writers</ref>
-				</note>
+						<l>Part the Second.</l>
+						<l>No time hath she to sport and play:</l>
+						<l>A charmèd web she weaves alway.</l>
+						<l>A curse is on her, if she stay</l>
+						<l>Her weaving, either night or day,</l>
+						<l>              To look down to Camelot.</l>
+						<l>She knows not what the curse may be;</l>
+						<l>Therefore she weaveth steadily,</l>
+						<l>Therefore no other care hath she,</l>
+						<l>              The Lady of Shalott.</l>
+						<l>She lives with little joy or fear.</l>
+						<l>Over the water, running near,</l>
+						<l>The sheepbell tinkles in her ear.</l>
+						<l>Before her hangs a mirror clear,</l>
+						<l>              Reflecting towered Camelot.</l>
+						<l>And, as the mazy web she whirls,</l>
+						<l>She sees the surly village-churls,</l>
+						<l>And the red cloaks of market-girls,</l>
+						<l>              Pass onward from Shalott.</l>
+						<l>Sometimes a troop of damsels glad,</l>
+						<l>An abbot on an ambling pad,</l>
+						<l>Sometimes a curly shepherd lad,</l>
+						<l>Or longhaired page, in crimson clad,</l>
+						<l>              Goes by to towered Camelot.</l>
+						<l>And sometimes thro' the mirror blue,</l>
+						<l>The knights come riding, two and two.</l>
+						<l>She hath no loyal knight and true</l>
+						<l>              The Lady of Shalott.</l>
+						<l>But in her web she still delights</l>
+						<l>To weave the mirror's magic sights:</l>
+						<l>For often thro' the silent nights</l>
+						<l>A funeral, with plumes and lights</l>
+						<l>              And music, came from Camelot.</l>
+						<l>Or, when the moon was overhead,</l>
+						<l>Came two young lovers, lately wed:</l>
+						<l>"I am half-sick of shadows," said</l>
+						<l>              The Lady of Shalott.</l>
+						<l>Part the Third.</l>
+						<l>A bowshot from her bower-eaves.</l>
+						<l>He rode between the barleysheaves:</l>
+						<l>The sun came dazzling thro' the leaves,</l>
+						<l>And flamed upon the brazen greaves</l>
+						<l>              Of bold Sir Launcelot.</l>
+						<l>A redcross knight for ever kneeled</l>
+						<l>To a lady in his shield,</l>
+						<l>That sparkled on the yellow field,</l>
+						<l>              Beside remote Shalott.</l>
+						<l>The gemmy bridle glittered free,</l>
+						<l>Like to some branch of stars we see</l>
+						<l>Hung in the golden galaxy.</l>
+						<l>The bridle-bells rang merrily,</l>
+						<l>              As he rode down from Camelot.</l>
+						<l>And, from his blazoned baldric slung,</l>
+						<l>A mighty silver bugle hung,</l>
+						<l>And, as he rode, his armour rung,</l>
+						<l>              Beside remote Shalott.</l>
+						<l>All in the blue unclouded weather,</l>
+						<l>Thickjewelled shone the saddle-leather.</l>
+						<l>The helmet, and the helmet-feather</l>
+						<l>Burned like one burning flame together,</l>
+						<l>              As he rode down from Camelot.</l>
+						<l>As often thro' the purple night,</l>
+						<l>Below the starry clusters bright,</l>
+						<l>Some bearded meteor, trailing light,</l>
+						<l>              Moves over green Shalott.</l>
+						<l>His broad clear brow in sunlight glowed.</l>
+						<l>On burnished hooves his warhorse trode.</l>
+						<l>From underneath his helmet flowed</l>
+						<l>His coalblack curls, as on he rode,</l>
+						<l>              As he rode down from Camelot.</l>
+						<l>From the bank, and from the river,</l>
+						<l>He flashed into the crystal mirror,</l>
+						<l>"Tirra lirra, tirra lirra,"</l>
+						<l>              Sang Sir Launcelot.</l>
+						<l>She left the web: she left the loom:</l>
+						<l>She made three paces thro' the room:</l>
+						<l>She saw the waterflower bloom:</l>
+						<l>She saw the helmet and the plume:</l>
+						<l>              She looked down to Camelot.</l>
+						<l>Out flew the web, and floated wide,</l>
+						<l>The mirror cracked from side to side,</l>
+						<l>'The curse is come upon me," cried</l>
+						<l>              The Lady of Shalott.</l>
+						<l>Part the Fourth.</l>
+						<l>In the stormy eastwind straining</l>
+						<l>The pale-yellow woods were waning,</l>
+						<l>The broad stream in his banks complaining,</l>
+						<l>Heavily the low sky raining</l>
+						<l>              Over towered Camelot:</l>
+						<l>Outside the isle a shallow boat</l>
+						<l>Beneath a willow lay afloat,</l>
+						<l>Below the carven stern she wrote,</l>
+						<l>              THE LADY OF SHALOTT.</l>
+						<l>A cloudwhite crown of pearl she dight.</l>
+						<l>All raimented in snowy white</l>
+						<l>That loosely flew, (her zone in sight,</l>
+						<l>Clasped with one blinding diamond bright,)</l>
+						<l>              Her wide eyes fixed on Camelot,</l>
+						<l>Though the squally eastwind keenly</l>
+						<l>Blew, with folded arms serenely</l>
+						<l>By the water stood the queenly</l>
+						<l>               Lady of Shalott.</l>
+						<l>With a steady, stony glance—</l>
+						<l>Like some bold seer in a trance,</l>
+						<l>Beholding all his own mischance,</l>
+						<l>Mute, with a glassy countenance—</l>
+						<l>              She looked down to Camelot.</l>
+						<l>It was the closing of the day,</l>
+						<l>She loosed the chain, and down she lay,</l>
+						<l>The broad stream bore her far away,</l>
+						<l>              The Lady of Shalott.</l>
+						<l>As when to sailors while they roam,</l>
+						<l>By creeks and outfalls far from home,</l>
+						<l>Rising and dropping with the foam,</l>
+						<l>From dying swans wild warblings come,</l>
+						<l>              Blown shoreward; so to Camelot</l>
+						<l>Still as the boathead wound along</l>
+						<l>The willowy hills and fields among,</l>
+						<l>They heard her chanting her deathsong,</l>
+						<l>              The Lady of Shalott.</l>
+						<l>A longdrawn carol, mournful, holy,</l>
+						<l>She chanted loudly, chanted lowly,</l>
+						<l>Till her eyes were darkened wholly,</l>
+						<l>And her smooth face sharpened slowly</l>
+						<l>              Turned to towered Camelot:</l>
+						<l>For ere she reached upon the tide</l>
+						<l>The first house by the waterside,</l>
+						<l>Singing in her song she died,</l>
+						<l>              The Lady of Shalott.</l>
+						<l>Under tower and balcony,</l>
+						<l>By gardenwall and gallery,</l>
+						<l>A pale, pale corpse she floated by,</l>
+						<l>Deadcold, between the houses high,</l>
+						<l>              Dead into towered Camelot.</l>
+						<l>Knight and burgher, lord and dame,</l>
+						<l>To the plankèd wharfage came:</l>
+						<l>Below the stern they read her name,</l>
+						<l>              "The Lady of Shalott."</l>
+						<l>They crossed themselves, their stars they blest,</l>
+						<l>Knight, minstrel, abbot, squire and guest.</l>
+						<l>There lay a parchment on her breast,</l>
+						<l>That puzzled more than all the rest,</l>
+						<l>              The wellfed wits at Camelot.</l>
+						<l>"The web was woven curiously</l>
+						<l> The charm is broken utterly,</l>
+						<l> Draw near and fear not – this is I,</l>
+						<l>              The Lady of Shalott.</l>
 			</div>
 		</body>
 	</text>
